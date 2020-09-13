@@ -1,0 +1,55 @@
+.main-search .el-input__inner {
+    height: 32px !important;
+    line-height: 32px !important;
+    border-radius: 16px !important;
+    font-size: 12px !important;
+}
+
+.main-search .el-input__icon {
+    line-height: 32px !important;
+}
+
+.main-search .el-input__inner:focus {
+    border-color: #000 !important;
+}
+
+.banner-total .el-carousel__container {
+    height: 100% !important;
+}
+
+.banner-total .el-carousel__button {
+    opacity: 1 !important; 
+    width: 6px !important;
+    height: 6px !important;
+    margin: 0 6px;
+    border-radius: 50% !important;
+    background-color: #a9a9a9 !important;
+}
+
+.banner-total .el-carousel__indicators--horizontal {
+    left: 400px !important;
+}
+
+.banner-total .el-carousel__indicator:hover button,
+.banner-total .el-carousel__indicator.is-active button {
+    opacity: 1 !important; 
+    background-color: #BE0B0B !important;
+}
+
+.banner-total .el-carousel__arrow {
+    display: none !important;
+}
+
+.card-top-sublink .el-breadcrumb__inner.is-link {
+    font-weight: normal !important;
+    color: #666;
+    &:hover {
+        color: #666;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.card-top-sublink .el-breadcrumb__separator {
+    margin: 0 14px !important;
+}

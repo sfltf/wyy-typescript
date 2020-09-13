@@ -1,6 +1,7 @@
 module.exports = {
   publicPath: "./",
   devServer: {
+    hot: true,
     open: true,
     overlay: {
       warnings: false,
@@ -15,5 +16,9 @@ module.exports = {
         }
       }
     }
+  },
+  chainWebpack: config => {
+    // 修复HMR
+    config.resolve.symlinks(true);
   }
 };
